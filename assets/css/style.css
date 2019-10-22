@@ -1,0 +1,407 @@
+body, html {
+    height: 100vh;
+    margin:0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*
+    fixed = parallax
+    scroll=normal
+    */
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url(../images/img1.jpg);
+    min-height: 100vh;
+}
+
+.pimg2 {
+    background-image: url(../images/img2.jpg);
+    min-height: 50vh;
+}
+
+.pimg3 {
+    background-image: url(../images/img3.jpg);
+    min-height: 100vh;
+}
+
+.pimg4 {
+    background-image: url(../images/img4.jpg);
+    min-height: 100vh;
+}
+.ptext{
+    color:black;
+}
+.BeforeScroll
+{
+  display: none;
+}
+
+
+/*Use this class when you want your content to be shown after some scroll*/
+.AfterScroll
+{
+  display: block;
+}
+.frontend {
+    float: left;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+.artist {
+    float: right;
+    margin-right: 10%;
+    margin-top:180px;
+}
+#front {
+    color:white;
+}
+#art {
+    color:white;
+}
+@font-face { font-family: OptimusPrincepsSemiBold; src: url(../css/OptimusPrinceps/OptimusPrincepsSemiBold.ttf); }
+@font-face { font-family: OptimusPrinceps; src: url(../css/OptimusPrinceps/OptimusPrinceps.ttf);}
+@font-face { font-family: Monteros; src: url(../css/Monteros/Monteros.ttf);}
+@font-face { font-family: RollBack; src: url(../css/RollingBack/Rolling\ Back\ Free.ttf);}
+
+body{
+    background: url(../images/image1.jpg);
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-family: OptimusPrincepsSemiBold;
+    text-align: center;
+}
+
+h2 {
+    padding: 0 20% 0 20%;
+    font-family: OptimusPrincepsSemiBold;
+    text-align: center;
+}
+
+.self {
+    max-width: 450px;
+    position: absolute;
+    margin-top: -230px;
+    /* margin-left: 60%; */
+}
+
+.jumboImg {
+    position: absolute;
+    width:100.5%;
+    margin-top: -100px;
+    color: white;
+    position: absolute;
+    z-index: -1;
+    overflow:hidden;
+}
+.jumbotron {
+    background-color: rgb(66, 62, 62);
+    background-size: 100%;
+    background-position-y: -200px;
+    overflow:hidden;
+    color: rgb(252, 214, 214);
+}
+
+.artPort{
+    max-width: 70px;
+    margin-left:40px;
+}
+#artPort {
+    position:relative; width:120px; height:125px; float:left; margin-left:20%;}
+#artPort .artPort,
+#artPort .text1 {transition: opacity 0.5s ease-in-out;}
+#artPort .text1 {position:absolute; top:0; left:0; opacity:0;}
+#artPort:hover .artPort {opacity:0;}
+#artPort:hover .text1 {opacity:1;color: white;}  
+
+.animPort{
+    max-width: 70px;
+    margin-left: 40px;
+}
+
+#animPort {
+    position:relative; width:120px; height:125px;float:left; margin-left:35%;}
+
+#animPort .animPort,
+
+#animPort .text2 {transition: opacity 0.5s ease-in-out;}
+
+#animPort .text2 {position:absolute; top:0; left:0; opacity:0;}
+
+#animPort:hover .animPort {opacity:0;}
+
+#animPort:hover .text2 {opacity:1; color:white;}  
+
+.navbar {
+    font-family: Monteros;
+    text-align: center;
+    background-color:rgb(252, 214, 214);
+}
+
+.navbar-brand {
+    margin-left:20px;
+}
+
+.navImg {
+    margin-left: 10px;
+}
+
+hr {
+    width: 70px;
+    height:1px;
+    background-color:black;
+}
+
+.content {
+    float:left;
+    width: 80%;
+    height: 400px;
+}
+
+#port {
+    max-width: 30px;
+}
+
+#home {
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+#contact {
+    max-height: 30px;
+}
+
+.descriptions {
+    width:500px;
+    margin-left: 10%;
+    margin-top: 20px;
+    color:white;
+    height: 120px;
+    padding:10px;
+    text-align:center;
+}
+
+.portfolioSitesContainer {
+    margin-top: 50px;
+    
+    width:100%;
+    padding: 20px 0 0 20%;
+    text-align:center;
+}
+
+.imageContainer {
+    font-family: Monteros;
+    width: 125px;
+    height: 125px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin:20px 0 20px 15%;
+    cursor: pointer;
+}
+
+#title {
+font-family: Monteros;
+font-size: 22px;
+text-align: center;
+font-weight: bold;
+}
+
+.imageContainer:hover {
+    background-color: rgb(252, 214, 214);
+}
+.aboutMe {
+    margin-top: 700px;
+}
+
+@keyframes bounce {
+	0%, 15%, 50%, 80%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	30% {
+		-webkit-transform: translateY(-15px);
+		transform: translateY(-15px);
+	}
+
+	70% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+    }
+    95% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+}
+
+#skull {
+    max-width: 200px;
+    padding: 0 30px 0 0;
+}
+
+#skull:hover {
+    animation: bounce 1s;
+}
+
+#art {
+    max-width: 140px;
+    padding: 0 20px 0 10px;
+}
+
+#art:hover {
+    animation: bounce 1s;
+}
+
+#hat {
+    max-width: 180px;
+    padding: 20px 30px 0 0;
+}
+
+#hat:hover {
+    animation: bounce 1s;
+}
+
+#question {
+    max-width: 150px;
+    padding: 0 30px 0 0;
+}
+
+#question:hover {
+    animation: bounce 1s;
+}
+
+#tram {
+    max-width: 200px;
+    padding: 30px 40px 0 0;
+}
+
+#tram:hover {
+    animation: bounce 1s;
+}
+
+#books {
+    max-width: 200px;
+    padding: 10px 40px 0 0;
+}
+
+#books:hover {
+    animation: bounce 1s;
+}
+
+#selfPhoto {
+    border-radius: 50%;
+    width: 150px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    float:left;
+    margin-left: 10%;
+}
+
+.div1 {
+    width:100%;
+    height:330px;
+    position: absolute;
+    z-index: -2;
+    
+}
+
+.div2 {
+    margin-top:330px;
+    width:100%;
+    height: 600px;
+    background-color:black;
+    position: absolute;
+    z-index: -2;
+}
+
+.div3 {
+    margin-top:900px;
+    width:100%;
+    height:200px;
+    position:absolute;
+    z-index: -2;
+}
+
+@media only screen and (max-width: 992px){
+    #artPort {
+        position:relative; width:120px; height:125px; float:left; margin-left:10%;
+    }
+
+    .artPort{
+        max-width: 50px;
+        margin-left:40px;
+    }
+
+    .animPort{
+        max-width: 50px;
+        margin-left: 40px;
+    }
+
+    #animPort {
+        position:relative; width:120px; height:125px;float:left; margin-left:30%;
+    }
+
+        .portfolioSitesContainer {
+            width:103%;
+            position: absolute;
+            padding: 20px;
+            text-align:center;
+        }
+
+        #title {
+        font-family: Monteros;
+        font-size: 22px;
+        text-align: center;
+        font-weight: bold;
+        }
+        
+        .imageContainer {
+            font-family: Monteros;
+            width: 125px;
+            height: 125px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50%;
+            margin: 30px 0 20px 70%;
+            cursor: pointer;
+        }
+
+}
+
+@media only screen and (max-width: 646px){
+    
+    .artPort{
+        max-width: 60px;
+        margin-left:35px;
+    }
+
+    #artPort {
+        position:relative; width:120px; height:125px; float:left; margin-left:30%;
+    }
+
+    .portfolioSitesContainer {
+        width:104%;
+    }
+
+    .imageContainer {
+        font-family: Monteros;
+        width: 125px;
+        height: 125px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        margin: 30px 0 20px 40%;
+        cursor: pointer;
+    }
+}
