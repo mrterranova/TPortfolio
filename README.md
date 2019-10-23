@@ -1,7 +1,7 @@
 # Portfolio
 
-##Updated Portfolio. 
-###Front-end fetaures include:
+## Updated Portfolio. 
+### Front-end fetaures include:
     + Parallaxing
     + Animation
     + Multiple Pages
