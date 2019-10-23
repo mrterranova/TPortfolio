@@ -1,8 +1,11 @@
 # Portfolio
 
-Updated Portfolio project. Working on animation sequences for loading as well as parallax and many other techniques for front-end developers. 
+**Updated Portfolio. 
+*Front-end fetaures include:
+    
+
 
 Work in progress:
-https://mrterranova.github.io/Portfolio/
+https://mrterranova.github.io/TPortfolio/
 
 Still under construction...
