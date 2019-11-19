@@ -296,6 +296,12 @@ font-weight: bold;
     max-width: 200px;
     padding: 10px 40px 0 0;
 }
+#hand {
+    max-width: 125px;
+}
+#hand:hover {
+    animation: bounce 1s;
+}
 
 #books:hover {
     animation: bounce 1s;
